@@ -1,2 +1,29 @@
 
-/* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.movie-container {
+    text-align: center;
+}
+
+.moviePic {
+    height: 300px; /* Adjust the height as needed */
+    width: auto; /* Maintain aspect ratio */
+    opacity: 0.9; /* Adjust opacity as needed */
+}
+
+.movieDetail {
+    position: relative;
+    top: 20px; /* Adjust the vertical position as needed */
+    width: 70%; /* Adjust the width as needed */
+    text-align: center;
+    font-size: 18px; /* Adjust the font size as needed */
+}
